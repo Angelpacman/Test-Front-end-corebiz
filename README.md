@@ -6,6 +6,7 @@ Trabajando en corebiz: Front End
 >Binevenido al test de la tienda Corebiiz, para poder correr la aplicación necesitaras:
 >- Una terminal compatible bash (zsh, tsh, WSL etc)
 >- Instalacion de git y opcinal una cuenta de github, gitlab, etc.
+>- Instalacion de yarn
 >- [NodeJs](https://nodejs.org/)
 
 ## Paso 2
@@ -32,6 +33,7 @@ cd tienda01
 instalar los modulos necesarios
 ```shell
 npm install
+yarn add node-sass
 ```
 
 y correr la aplicacion
