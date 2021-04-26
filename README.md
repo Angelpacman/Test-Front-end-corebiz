@@ -20,7 +20,7 @@ git clone https://github.com/Angelpacman/Test-Front-end-corebiz.git
 Entrar al repositorio clonado 
 
 ```shell
-cd Test-Fron-end-corebiz
+cd Test-Front-end-corebiz
 ```
 
 y entrar al proyecto `tienda01`
@@ -30,10 +30,10 @@ cd tienda01
 ```
 
 ## Paso 4
-instalar los modulos necesarios
+quitar versiones no compatibles e instalar los modulos necesarios
 ```shell
-npm install
-yarn add node-sass
+npm uninstall node-sass
+npm i sass
 ```
 
 y correr la aplicacion
